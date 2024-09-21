@@ -1,0 +1,25 @@
+//提供scss全局变量
+//定义项目主题颜色
+
+//左侧的菜单的宽度
+$base-menu-width: 220px;
+//左侧菜单的背景颜色
+$base-menu-color : #e6f6fc;
+//顶部导航的宽度
+$base-tabbar-height: 60px;
+//设置滚动条样式
+::-webkit-scrollbar {
+    width:10px;
+}
+::-webkit-scrollbar-track {
+    background: $base-menu-color;
+}
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+//定义logo高度
+$base-logo-height:80px;
+//折叠后的菜单宽度
+$base-menu-min-width:60px;
